@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+.Calendar {
+  flex-flow: wrap;
+  gap: 1px;
+  width: 706px;
+  padding: 10px;
+  display: flex;
+}
+
+.Calendar__day {
+  box-sizing: border-box;
+  background-color: #eee;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  transition: all .5s;
+  display: flex;
+}
+
+.Calendar__day:hover {
+  cursor: pointer;
+  background-color: #ffbfcb;
+  transform: translateY(-20px);
+}
+
+.Calendar__day--1:before {
+  content: "1";
+}
+
+.Calendar__day--2:before {
+  content: "2";
+}
+
+.Calendar__day--3:before {
+  content: "3";
+}
+
+.Calendar__day--4:before {
+  content: "4";
+}
+
+.Calendar__day--5:before {
+  content: "5";
+}
+
+.Calendar__day--6:before {
+  content: "6";
+}
+
+.Calendar__day--7:before {
+  content: "7";
+}
+
+.Calendar__day--8:before {
+  content: "8";
+}
+
+.Calendar__day--9:before {
+  content: "9";
+}
+
+.Calendar__day--10:before {
+  content: "10";
+}
+
+.Calendar__day--11:before {
+  content: "11";
+}
+
+.Calendar__day--12:before {
+  content: "12";
+}
+
+.Calendar__day--13:before {
+  content: "13";
+}
+
+.Calendar__day--14:before {
+  content: "14";
+}
+
+.Calendar__day--15:before {
+  content: "15";
+}
+
+.Calendar__day--16:before {
+  content: "16";
+}
+
+.Calendar__day--17:before {
+  content: "17";
+}
+
+.Calendar__day--18:before {
+  content: "18";
+}
+
+.Calendar__day--19:before {
+  content: "19";
+}
+
+.Calendar__day--20:before {
+  content: "20";
+}
+
+.Calendar__day--21:before {
+  content: "21";
+}
+
+.Calendar__day--22:before {
+  content: "22";
+}
+
+.Calendar__day--23:before {
+  content: "23";
+}
+
+.Calendar__day--24:before {
+  content: "24";
+}
+
+.Calendar__day--25:before {
+  content: "25";
+}
+
+.Calendar__day--26:before {
+  content: "26";
+}
+
+.Calendar__day--27:before {
+  content: "27";
+}
+
+.Calendar__day--28:before {
+  content: "28";
+}
+
+.Calendar__day--29:before {
+  content: "29";
+}
+
+.Calendar__day--30:before {
+  content: "30";
+}
+
+.Calendar__day--31:before {
+  content: "31";
+}
+
+.Calendar__start-day--mon > :first-child {
+  margin-left: 0;
+}
+
+.Calendar__start-day--tue > :first-child {
+  margin-left: 101px;
+}
+
+.Calendar__start-day--wed > :first-child {
+  margin-left: 202px;
+}
+
+.Calendar__start-day--thu > :first-child {
+  margin-left: 303px;
+}
+
+.Calendar__start-day--fri > :first-child {
+  margin-left: 404px;
+}
+
+.Calendar__start-day--sat > :first-child {
+  margin-left: 505px;
+}
+
+.Calendar__start-day--sun > :first-child {
+  margin-left: 606px;
+}
+
+.Calendar__month-length--28 > :nth-child(n+29), .Calendar__month-length--29 > :nth-child(n+30), .Calendar__month-length--30 > :nth-child(n+31), .Calendar__month-length--31 > :nth-child(n+32) {
+  visibility: hidden;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
